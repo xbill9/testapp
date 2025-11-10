@@ -4,7 +4,7 @@ This document provides context to the Gemini code assistant to help it generate 
 
 ## Project Overview
 
-This project is a Python application that generates Fibonacci sequences. The main logic is in `fibonacci_generator.py`.
+This project is a Python application that generates Fibonacci sequences. The main logic is in `testapp.py`.
 
 ## Tech Stack
 
@@ -12,7 +12,7 @@ This project is a Python application that generates Fibonacci sequences. The mai
 
 ## Project Structure
 
-- `fibonacci_generator.py`: The main application file.
+- `testapp.py`: The main application file.
 - `tests/`: Directory for unit tests.
 - `requirements.txt`: A file listing the project's dependencies.
 - `GEMINI.md`: This file.
