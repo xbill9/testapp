@@ -1,6 +1,6 @@
-# Fibonacci Sequence Generator
+# Lucas Sequence Generator
 
-This project is a Python application that generates Fibonacci sequences.
+This project is a Python application that generates Lucas sequences.
 
 ## Getting Started
 
@@ -25,13 +25,13 @@ This project is a Python application that generates Fibonacci sequences.
 
 ### Usage
 
-To generate a Fibonacci sequence, run the `testapp.py` script with the desired number of elements:
+To generate a Lucas sequence, run the `testapp.py` script with the desired number of elements:
 
 ```bash
 python testapp.py <count>
 ```
 
-For example, to generate the first 10 numbers in the Fibonacci sequence:
+For example, to generate the first 10 numbers in the Lucas sequence:
 
 ```bash
 python testapp.py 10
@@ -39,7 +39,7 @@ python testapp.py 10
 
 This will output:
 ```
-Fibonacci sequence up to 10 numbers: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+Lucas sequence up to 10 numbers: [2, 1, 3, 4, 7, 11, 18, 29, 47, 76]
 ```
 
 ## Running the Tests
