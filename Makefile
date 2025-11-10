@@ -1,6 +1,6 @@
 # Makefile for testapp.py
 
-.PHONY: all run build test lint format status pull push clean
+.PHONY: all run build test lint format status pull push clean docs
 
 # Variables
 COUNT ?= 10
@@ -47,9 +47,15 @@ push:
 	@echo "Pushing changes to git..."
 	@git push
 
+# Target to generate documentation
+docs:
+	@echo "Generating documentation..."
+	@mkdir -p docs
+	@python -m pydoc -w testapp
+	@mv testapp.html docs/
+
 .PHONY: clean
 clean:
 	@echo "Cleaning up..."
 	@find . -type f -name "*.pyc" -delete
 	@find . -type d -name "__pycache__" -exec rm -rf {} +
-
